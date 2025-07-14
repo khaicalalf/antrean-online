@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pendaftaran Online RSUD Dr. H. Moh. Rabain</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    @vite(['public/js/app.js', 'public/css/app.css'])
+    {{-- @vite(['public/js/app.js', 'public/css/app.css']) --}}
+    {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    <script src="{{ asset('js/app.js') }}"></script> --}}
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 

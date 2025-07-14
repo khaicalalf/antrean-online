@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pendaftaran Online RSUD Dr. H. Moh. Rabain</title>
-    @vite(['public/js/app.js', 'public/js/validates.js', 'public/css/app.css', 'public/js/tabs.js', 'public/js/search.js'])
+    
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/validates.js') }}"></script>
+    <script src="{{ asset('js/tabs.js') }}"></script>
+    <script src="{{ asset('js/search.js') }}"></script>
 </head>
 
 <body class="h-full">
